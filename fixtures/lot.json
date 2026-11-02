@@ -1,0 +1,35 @@
+{
+  "program": "laser-socket-105c",
+  "warranty_h": 40000,
+  "hut_k": 313,
+  "socket_k": 378,
+  "ea_mev": 400,
+  "die_usd": 80,
+  "surgery_usd": 3500,
+  "hut_table": [
+    {"age_h": 0, "survive_pct": 100},
+    {"age_h": 10000, "survive_pct": 99},
+    {"age_h": 20000, "survive_pct": 97},
+    {"age_h": 40000, "survive_pct": 94},
+    {"age_h": 80000, "survive_pct": 86},
+    {"age_h": 160000, "survive_pct": 70}
+  ],
+  "parts": [
+    {"id": "c1", "split": "cal", "mttf_h": 80000, "drift_ppm": 10, "fails": false},
+    {"id": "c2", "split": "cal", "mttf_h": 60000, "drift_ppm": 20, "fails": false},
+    {"id": "c3", "split": "cal", "mttf_h": 50000, "drift_ppm": 30, "fails": false},
+    {"id": "c4", "split": "cal", "mttf_h": 45000, "drift_ppm": 80, "fails": true},
+    {"id": "c5", "split": "cal", "mttf_h": 20000, "drift_ppm": 90, "fails": true},
+    {"id": "c6", "split": "cal", "mttf_h": 70000, "drift_ppm": 25, "fails": false},
+    {"id": "p1", "split": "lot", "mttf_h": 90000, "drift_ppm": 12, "fails": false},
+    {"id": "p2", "split": "lot", "mttf_h": 55000, "drift_ppm": 18, "fails": false},
+    {"id": "p3", "split": "lot", "mttf_h": 48000, "drift_ppm": 28, "fails": false},
+    {"id": "p4", "split": "lot", "mttf_h": 42000, "drift_ppm": 70, "fails": true},
+    {"id": "p5", "split": "lot", "mttf_h": 65000, "drift_ppm": 55, "fails": true},
+    {"id": "p6", "split": "lot", "mttf_h": 15000, "drift_ppm": 100, "fails": true},
+    {"id": "p7", "split": "lot", "mttf_h": 22000, "drift_ppm": 22, "fails": false},
+    {"id": "p8", "split": "lot", "mttf_h": 38000, "drift_ppm": 40, "fails": true},
+    {"id": "p9", "split": "lot", "mttf_h": 60000, "drift_ppm": 28, "fails": true},
+    {"id": "p10", "split": "lot", "mttf_h": 80000, "drift_ppm": 35, "fails": false}
+  ]
+}
